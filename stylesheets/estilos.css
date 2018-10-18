@@ -1,0 +1,302 @@
+body{
+  font: 16px Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+}
+
+/* Estilos globales */
+.contenedor{
+  width:1200px;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.actual a{
+  color:#23c5b0;
+  font-weight:bold;
+}
+
+.resaltado {
+  color:#23c5b0;
+  font-weight:bold;
+}
+
+/* Encabezado **/
+header{
+  background:#24282b;
+  color:#ffffff;
+  padding-top:25px;
+  min-height:60px;
+  border-bottom:#23c5b0 5px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo{
+  float:left;
+}
+
+header #logo h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Cabecera con imagen */
+#cabecera{
+  height: 500px;
+  background:url('../images/slider.jpg') no-repeat ;
+  color:#ffffff;
+  text-align: center;
+}
+
+#cabecera h1{
+  margin-top:170px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#cabecera h2{
+  font-size: 30px;
+}
+
+#cabecera h3{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/* Info-personal */
+#info-personal{
+  margin-top:50px;
+  color: #333333;
+}
+
+#info-personal .caja{
+  float:left;
+  width: 600px;
+}
+
+#info-personal .caja img{
+  width:500px;
+  margin: auto;
+}
+
+#info-personal .caja h2{
+  font-size: 35px;
+}
+
+#info-personal .caja p{
+  text-align: justify;
+}
+
+#info-personal .caja ul{
+  margin-top: 50px;
+}
+
+#info-personal .caja li{
+  display: block;
+  font-size: 18px;
+  margin-bottom: 15px;
+  width: 300px;
+  list-style: none;
+  float: left;
+}
+
+#info-personal .caja li a{
+  color:#23c5b0;
+  text-decoration: none;
+}
+
+/* Info-contacto */
+#info-contact{
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+}
+
+#info-contact .caja{
+  margin-top: 25px;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  float:left;
+}
+
+#info-contact .caja .icon-envelop {
+  font-size: 70px;
+}
+
+#info-contact .caja .icon-location2{
+  font-size: 70px;
+
+}#info-contact .caja .icon-phone{
+  font-size: 70px;
+}
+
+#info-contact h3{
+  font-size: 18px;
+}
+
+#info-contact h2{
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+#info-contact p{
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+/* Footer */
+#info-contact .footer {
+  background:#24282b;
+  color:#ffffff;
+  padding-top:25px;
+  min-height:60px;
+  border-top:#23c5b0 5px solid;
+}
+
+#info-contact .copyright{
+  float:left;
+}
+
+#info-contact .footer .copyright a{
+  color:#23c5b0;
+  text-decoration:none;
+  font-size:16px;
+  font-weight: bold;
+}
+
+#info-contact .social{
+  float: right;
+}
+
+#info-contact .footer .social ul{
+  margin-top: 10px;
+}
+
+#info-contact .footer .social li{
+  float:left;
+  display:inline;
+  padding: 0 0 0 30px;
+}
+
+#info-contact .footer .social a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size:20px;
+}
+
+#info-contact .footer .social a:hover{
+  color:#23c5b0;
+}
+
+
+/* Eduacacion */
+article#estudios{
+  float:left;
+  width:800px;
+  margin-top:20px;
+}
+
+article#estudios h2{
+  font-size: 35px;
+}
+
+/* Formulario de contacto */
+
+aside#lateral{
+  float:right;
+  width:400px;
+  margin-top:50px;
+}
+
+.contenedor-form{
+    max-width: 315px;
+    margin: 65px auto;
+    font: normal 14px sans-serif;
+    text-align: center;
+    color: #5f5f5f;
+}
+
+.contenedor-form h1{
+    color:  #ffffff;
+    font-size: 24px;
+    height: 50px;
+    border-bottom: 5px solid #23c5b0;
+    background-color:  #24282b;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.formulario{
+    box-sizing: border-box;
+    padding: 40px;
+    background-color:  #cccccc;
+}
+
+.formulario .form-cajas{
+    display: block;
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.formulario input,
+.formulario select{
+    box-sizing: border-box;
+    width: 240px;
+    padding: 12px 18px;
+    border: 1px solid #cccccc;
+}
+
+.formulario select{
+    color: inherit;
+    background-color: #ffffff;
+}
+
+.formulario .form-boton{
+    margin: 35px auto 0;
+}
+
+.formulario button{
+    display: block;
+    border-radius: 2px;
+    background-color:  #23c5b0;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    padding: 14px 22px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Experiencia */
+#experiencia h2{
+  font-size: 35px;
+}
