@@ -296,6 +296,36 @@ aside#lateral{
     cursor: pointer;
 }
 
+#noResize {
+  resize:none;
+}
+
+.formulario input[type=radio],
+.formulario input[type=checkbox]{
+    box-shadow: none;
+    width: auto;
+}
+
+.formulario .form-checkbox span{
+    margin-left: 5px;
+}
+
+.formulario .form-checkbox input{
+    width: auto;
+}
+
+.formulario .form-radio-buttons > div{
+    margin-bottom: 10px;
+}
+
+.formulario .form-radio-buttons input{
+    width: auto;
+}
+
+.formulario .form-radio-buttons label span{
+    margin-left: 8px;
+}
+
 /* Experiencia */
 #experiencia h2{
   font-size: 35px;
