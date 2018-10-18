@@ -57,10 +57,11 @@
           <table border="1" cellpadding="20" cellspacing="0">
             <thead>
               <tr>
-                <th width="10%" class="resaltado">AÑO</th>
+                <th width="5%" class="resaltado">AÑO</th>
                 <th width="35%" class="resaltado">CARRERA</th>
-                <th width="35%" class="resaltado">INSTITUCIÓN</th>
+                <th width="25%" class="resaltado">INSTITUCIÓN</th>
                 <th width="20%" class="resaltado">LUGAR</th>
+                <th width="5%" class="resaltado">TÉRMINO</th>
               </tr>
             </thead>
             <tbody>
@@ -69,36 +70,42 @@
                 <td>Diseño gráfico</td>
                 <td>Universidad del Valle</td>
                 <td>Cali, Colombia</td>
+                <td>No</td>
               </tr>
               <tr>
                 <td>2014</td>
                 <td>Diseño web</td>
                 <td>Universidad del Valle</td>
                 <td>Cali, Colombia</td>
+                <td>Si</td>
               </tr>
               <tr>
                 <td>2015</td>
                 <td>Negocios internacionales</td>
                 <td>Universidad del Valle</td>
                 <td>Cali, Colombia</td>
+                <td>Si</td>
               </tr>
               <tr>
                 <td>2016</td>
                 <td>Mercadeo y publicidad</td>
                 <td>Universidad del Valle</td>
                 <td>Cali, Colombia</td>
+                <td>Si</td>
               </tr>
               <tr>
                 <td>2017</td>
                 <td>Ingenieria de sistemas</td>
                 <td>Universidad del Valle</td>
                 <td>Cali, Colombia</td>
+                <td>Si</td>
               </tr>
               <tr>
                 <td>2018</td>
                 <td>Administrador de empresas</td>
                 <td>Universidad del Valle</td>
                 <td>Cali, Colombia</td>
+                <td>Si</td>
               </tr>
             </tbody>
           </table>
@@ -126,10 +133,33 @@
                     <input type="text" name="name" placeholder="Carrera">
                 </div>
                 <div class="form-cajas">
-                    <input type="text" name="name" placeholder="Institucion">
+                    <input type="text" name="name" placeholder="Institucion(*)" required="">
                 </div>
                 <div class="form-cajas">
-                    <input type="text" name="name" placeholder="Lugar">
+                    <textarea name="comment" id="noResize" cols="30" rows="3" placeholder="Lugar"></textarea>
+                </div>
+                <div class="form-cajas">
+                    <div class="form-radio-buttons">
+                        <div>
+                            <label>
+                                <input type="radio" name="radio">
+                                <span>Si, término estudios</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                <input type="radio" name="radio">
+                                <span>No, término estudios</span>
+                            </label>
+                        </div>
+                  	</div>
+                </div>
+                <div class="form-cajas">
+                    <label class="form-checkbox">
+                        <input type="checkbox" name="checkbox" checked>
+                        <span>Acepto términos y condiciones</span>
+                    </label>
                 </div>
                 <div class="form-boton">
                     <button type="submit">Enviar Ahora</button>
